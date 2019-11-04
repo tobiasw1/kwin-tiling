@@ -254,25 +254,25 @@ function TilingManager(timerResize, timerGeometryChanged) {
                               });
         KWin.registerShortcut("TILING: Move Window Left",
                               "TILING: Move Window Left",
-                              "Meta+Shift+H",
+                              "Meta+Shift+Left",
                               function() {
                                   self._moveTile(Direction.Left);
                               });
         KWin.registerShortcut("TILING: Move Window Right",
                               "TILING: Move Window Right",
-                              "Meta+Shift+L",
+                              "Meta+Shift+Right",
                               function() {
                                   self._moveTile(Direction.Right);
                               });
         KWin.registerShortcut("TILING: Move Window Up",
                               "TILING: Move Window Up",
-                              "Meta+Shift+K",
+                              "Meta+Shift+Up",
                               function() {
                                   self._moveTile(Direction.Up);
                               });
         KWin.registerShortcut("TILING: Move Window Down",
                               "TILING: Move Window Down",
-                              "Meta+Shift+J",
+                              "Meta+Shift+Down",
                               function() {
                                   self._moveTile(Direction.Down);
                               });
@@ -314,7 +314,7 @@ function TilingManager(timerResize, timerGeometryChanged) {
                               });
         KWin.registerShortcut("TILING: Resize Active Window To The Left",
                               "TILING: Resize Active Window To The Left",
-                              "Meta+Alt+H",
+                              "Meta+Alt+Left",
                               function() {
                                   try {
                                       var client = workspace.activeClient;
@@ -342,7 +342,7 @@ function TilingManager(timerResize, timerGeometryChanged) {
                               });
         KWin.registerShortcut("TILING: Resize Active Window To The Right",
                               "TILING: Resize Active Window To The Right",
-                              "Meta+Alt+L",
+                              "Meta+Alt+Right",
                               function() {
                                   try {
                                       var client = workspace.activeClient;
@@ -370,7 +370,7 @@ function TilingManager(timerResize, timerGeometryChanged) {
                               });
         KWin.registerShortcut("TILING: Resize Active Window To The Top",
                               "TILING: Resize Active Window To The Top",
-                              "Meta+Alt+K",
+                              "Meta+Alt+Up",
                               function() {
                                   try {
                                       var client = workspace.activeClient;
@@ -398,7 +398,7 @@ function TilingManager(timerResize, timerGeometryChanged) {
                               });
         KWin.registerShortcut("TILING: Resize Active Window To The Bottom",
                               "TILING: Resize Active Window To The Bottom",
-                              "Meta+Alt+J",
+                              "Meta+Alt+Down",
                               function() {
                                   try {
                                       var client = workspace.activeClient;
